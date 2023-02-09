@@ -2,4 +2,5 @@ su betty : switches current user to betty
 id -un   : prints the effective username of the current user
 id -gn   : prints all the groups the current user is part of.
 sudo chown betty hello :  changes the owner of the file hello to the user betty
-touch hello : creates empty file called 'hello
+touch hello : creates empty file called 'hello'
+chmod u+x ./hello : adds execute permission to the owner of the file hello.
