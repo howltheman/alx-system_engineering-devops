@@ -1,2 +1,2 @@
 #!/bin/bash
-chomd ugo+x ./hello
+chomd 111 ./hello
