@@ -1,0 +1,3 @@
+#!/bin/bash
+[ "$(stat -c %U hello)" = "kay" ] && sudo chown betty hello
+
