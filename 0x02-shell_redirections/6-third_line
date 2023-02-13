@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n+3 /etc/passwd | head -n1
+tail -n+3 /iacta | head -n1
