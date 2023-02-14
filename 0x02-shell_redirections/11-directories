@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | grep "^d" | grep -v "^\.\{1,2\}" | wc -l`
+find . -type d -not -name '.' | wc -l
