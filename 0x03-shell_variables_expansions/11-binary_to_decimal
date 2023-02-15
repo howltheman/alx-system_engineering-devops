@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(printf "%o" $((2#101010)))
+echo $(printf "%o" $((2#$BINARY))).
